@@ -8,3 +8,4 @@ tqdm~=4.66.5
 toml~=0.10.2
 pyotp~=2.9.0
 webdriver-manager~=4.0.2
+psutil~=6.1.0

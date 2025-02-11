@@ -19,7 +19,7 @@ ProjectLogging()
 # CLI Args
 cli_parser = argparse.ArgumentParser()
 cli_parser.add_argument('--arg-config-path', default='arg-config.toml')
-cli_parser.add_argument('--mode', default='Dev', help='Login, GoldPrice, or CollectPoint')
+cli_parser.add_argument('--mode', default='CollectPoint', help='Login, GoldPrice, or CollectPoint')
 
 arg_manager = ConfigManager(cli_parser)
 args = arg_manager.args
